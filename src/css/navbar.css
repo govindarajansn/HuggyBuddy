@@ -1,0 +1,57 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--nav-clr);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.nav-title{
+    font-size: 40px;
+    height: 30%;
+    color: #fff;
+}
+.nav-bar-vertical{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--v-nav-clr);
+    position: fixed;
+    padding-top: 9rem;
+    padding-right: 1rem;
+    left: 0;
+    width: 14%;
+    height: 100%;
+    z-index: 2;
+    overflow: auto;
+}
+
+.nav-link{
+    padding: 1.5rem;
+    font-size: 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.logo{
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    width: 15rem;
+    height: 4rem;
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: var(--card-clr);
+}
+
+.dark-mode{
+    font-size: 3.2rem;
+    padding: 1.5rem;
+    margin-right: 1.5rem;
+    color: var(--card-clr);
+    cursor: pointer;
+}
